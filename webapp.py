@@ -13,9 +13,13 @@ def about():
 def login():
 	return render_template("log_in.html")
 
-@app.route('/profile')
-def profile():
+@app.route('/profile/y')
+def profile(y):
 	return render_template("profile.html")
+
+@app.route('/group/x')
+def group(x):
+	return render_template("group.html")
 
 
 if __name__ == "__main__": 
