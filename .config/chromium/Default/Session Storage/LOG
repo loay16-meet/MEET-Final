@@ -1,0 +1,31 @@
+2016/07/18-15:24:08.287 2257 Reusing MANIFEST /home/student/.config/chromium/Default/Session Storage/MANIFEST-000001
+2016/07/18-15:24:10.245 2499 Level-0 table #5: started
+2016/07/18-15:24:10.323 2499 Level-0 table #5: 89665 bytes OK
+2016/07/18-15:24:10.492 2499 Delete type=0 #3
+2016/07/18-15:24:51.998 2499 Level-0 table #7: started
+2016/07/18-15:24:52.050 2499 Level-0 table #7: 101958 bytes OK
+2016/07/18-15:24:52.095 2499 Delete type=0 #4
+2016/07/18-15:26:19.593 2499 Level-0 table #9: started
+2016/07/18-15:26:19.661 2499 Level-0 table #9: 101331 bytes OK
+2016/07/18-15:26:19.705 2499 Delete type=0 #6
+2016/07/18-15:30:01.984 2499 Level-0 table #11: started
+2016/07/18-15:30:02.039 2499 Level-0 table #11: 48616 bytes OK
+2016/07/18-15:30:02.106 2499 Delete type=0 #8
+2016/07/18-15:34:00.987 2499 Level-0 table #13: started
+2016/07/18-15:34:01.040 2499 Level-0 table #13: 48502 bytes OK
+2016/07/18-15:34:01.085 2499 Delete type=0 #10
+2016/07/18-16:03:59.161 2499 Level-0 table #15: started
+2016/07/18-16:03:59.233 2499 Level-0 table #15: 191377 bytes OK
+2016/07/18-16:03:59.289 2499 Delete type=0 #12
+2016/07/18-16:03:59.289 2499 Compacting 4@0 + 1@1 files
+2016/07/18-16:03:59.356 2499 Generated table #16: 316 keys, 490023 bytes
+2016/07/18-16:03:59.356 2499 Compacted 4@0 + 1@1 files => 490023 bytes
+2016/07/18-16:03:59.390 2499 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/07/18-16:03:59.390 2499 Delete type=2 #7
+2016/07/18-16:03:59.391 2499 Delete type=2 #9
+2016/07/18-16:03:59.391 2499 Delete type=2 #11
+2016/07/18-16:03:59.391 2499 Delete type=2 #15
+2016/07/18-16:03:59.391 2499 Delete type=2 #13
+2016/07/18-16:10:04.909 2499 Level-0 table #18: started
+2016/07/18-16:10:04.964 2499 Level-0 table #18: 87989 bytes OK
+2016/07/18-16:10:05.056 2499 Delete type=0 #14

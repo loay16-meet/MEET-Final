@@ -1,0 +1,27 @@
+logrotate state -- version 2
+"/home/student/.cache/upstart/dbus.log" 2016-7-20-9:19:15
+"/home/student/.cache/upstart/gnome-session-Unity.log" 2016-6-28-23:41:46
+"/home/student/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_grub-customizer.0.crash.log" 2016-7-17-22:17:11
+"/home/student/.cache/upstart/indicator-sound.log" 2016-7-20-9:19:15
+"/home/student/.cache/upstart/indicator-keyboard.log" 2016-6-28-23:41:46
+"/home/student/.cache/upstart/window-stack-bridge.log" 2016-7-20-9:19:15
+"/home/student/.cache/upstart/unity-settings-daemon.log" 2016-7-18-15:22:55
+"/home/student/.cache/upstart/unity7.log" 2016-7-20-9:19:15
+"/home/student/.cache/upstart/hud.log" 2016-7-18-15:22:55
+"/home/student/.cache/upstart/ssh-agent.log" 2016-7-20-9:19:15
+"/home/student/.cache/upstart/indicator-printers.log" 2016-6-28-23:41:46
+"/home/student/.cache/upstart/bamfdaemon.log" 2016-6-28-23:41:46
+"/home/student/.cache/upstart/indicator-bluetooth.log" 2016-6-28-23:41:46
+"/home/student/.cache/upstart/at-spi2-registryd.log" 2016-7-20-9:19:15
+"/home/student/.cache/upstart/gpg-agent.log" 2016-7-20-9:19:15
+"/home/student/.cache/upstart/upstart-event-bridge.log" 2016-7-20-9:19:15
+"/home/student/.cache/upstart/indicator-messages.log" 2016-6-28-23:41:46
+"/home/student/.cache/upstart/update-notifier-release.log" 2016-7-20-9:19:15
+"/home/student/.cache/upstart/unity-panel-service.log" 2016-7-20-9:19:15
+"/home/student/.cache/upstart/upstart-dbus-session-bridge.log" 2016-6-28-23:41:46
+"/home/student/.cache/upstart/gnome-keyring.log" 2016-7-20-9:19:15
+"/home/student/.cache/upstart/indicator-session.log" 2016-6-28-23:41:46
+"/home/student/.cache/upstart/indicator-datetime.log" 2016-6-28-23:41:46
+"/home/student/.cache/upstart/gnome-keyring-ssh.log" 2016-7-20-9:19:15
+"/home/student/.cache/upstart/upstart-dbus-system-bridge.log" 2016-6-28-23:41:46
+"/home/student/.cache/upstart/indicator-power.log" 2016-6-28-23:41:46
