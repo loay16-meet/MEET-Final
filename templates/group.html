@@ -6,14 +6,15 @@
 </head>
 
 <body>
-
+{% block content %}
 <h2>group</h2>
 <p>short explanation about the group project </p>
 <br><br>
-<h3>members</h3>
-<p><br><a href="{{url_for("profile(1)")}}">Loay </a>
+<h3>members:</h3>
+{% for profile in group %} 
+<p><br><a href="{{url_for('profile',pid = profile.id)}}">{{profile.name}} </a>
 <br>
-
-
+{%endfor %}
+{% endblock %}
 </body>
 </html>

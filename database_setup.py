@@ -11,14 +11,14 @@ class Profile(Base):
     id = Column(Integer, primary_key=True)
     email = Column(String)
     password = Column(String)
-    project = Column(Integer)
+    group = Column(Integer)
 
 
 class Group(Base):
     __tablename__ = 'Groups'
     name = Column(String)
     id = Column(Integer, primary_key=True)
-    membersid = Column(String)
+    users_id= Column(Integer)
     desc = Column(String)
     pic = Column(Integer)
     
