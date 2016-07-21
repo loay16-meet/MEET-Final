@@ -12,15 +12,11 @@
         
         
         <div>
-            <form action="">
-               <center> Name: <input type="text" name="name"><br><br></center>
+            <form action="{{url_for('login')}}" method="POST">
                 <center>Email: <input type="email" name="email"><br><br></center>
                 <center>Password: <input type="password" name="psw"><br></center>
                 <center><p><a id="three" href="#">Forgot your password?</a></p><br></center>
-                <center><input type="checkbox"> Keep me logged in </center>
-                <center><input type="checkbox"> Remember my password<br><br></center>
                 <center><input type="submit" value="Log In"></center>
-                <center><input type="submit" value="Reset"><br><br></center>
                 <center><p>Don't have an account yet? <a href="{{url_for("index")}}">Sign up now</a></p><br></center>
             </form>
         </div>

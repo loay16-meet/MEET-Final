@@ -10,15 +10,15 @@
 <h2>Welcome</h2>
 <p>short explanation about us </p>
 <br><br>
-<form action="log_in.html">
+<form action="{{url_for('sign_up')}}" method="POST">
 Full Name<input type="text"name ="name"><br>
 Email<input type="text"name ="email"><br>
-password<input type="password"name ="pass"><br>
+password<input type="password"name ="password"><br>
 you want to work on: 
 <select name = "project">
-  <option value="my idea">my idea</option>	
-  <option value="no idea">someone's elses idea</option>
-  <option value="any">doesn't matter</option>
+  <option value="1">my idea</option>	
+  <option value="0">someone's elses idea</option>
+  <option value="2">doesn't matter</option>
 </select>
 <br>
 <input type="submit" value="submit" >
