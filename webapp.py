@@ -34,7 +34,7 @@ def login():
 
 		#else:
 			#you didnt sign up
-
+#test
 
 @app.route('/profile/<pid>')
 def view_profile(pid):
