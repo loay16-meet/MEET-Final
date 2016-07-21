@@ -8,7 +8,8 @@
 <body>
 
 {% block content %}
-<a href="{{url_for("index")}}"><h2> Log Out </h2> </a>
+<a href="{{url_for("login")}}"><h2> Log Out </h2> </a>
+
 <center><h2>{{profile.name}}</h2><center>
 
 <div id="smth1"> <br>
@@ -16,12 +17,8 @@
 <br><br><br><br><br>
 </div>
 <div id=smth2> <br>
-Groups:<br>
-{% for group in profile %} 
-<p><br><a href="{{url_for('group',gid = group.id)}}">{{group.name}} </a>
-<br>
-{%endfor %}
-
+groups: CodeMe
+<br><br><br><br><br>
 </div>
 <div id="smth3"> <br>
 Messages:{{profile.project}}

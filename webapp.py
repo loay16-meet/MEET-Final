@@ -24,15 +24,17 @@ def login():
 	else:
 		loger = session.query(Profile).filter_by(email = request.form['email']).first()
 		if request.form['email'] == loger.email :
+			print ('after mail')
 			if loger.password == request.form['psw'] :
+				print ('after password')
 				return redirect(url_for('view_profile',pid=loger.id))
-		
+				print ('after redirect')
 		#	else: 
 				#wrong password
 
 		#else:
 			#you didnt sign up
-#test
+
 
 @app.route('/profile/<pid>')
 def view_profile(pid):
