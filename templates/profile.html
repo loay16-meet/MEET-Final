@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CodeMe</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='profile.css')}}">
+</head>
+
+<body>
+
+{% block content %}
+<a href="{{url_for("login")}}"><h2> Log Out </h2> </a>
+
+<center><h2>{{profile.name}}</h2><center>
+
+<div id="smth1"> <br>
+{{profile.email}}
+<br><br><br><br><br>
+</div>
+<div id=smth2> <br>
+groups: CodeMe
+<br><br><br><br><br>
+</div>
+<div id="smth3"> <br>
+Messages:{{profile.project}}
+<br><br>
+</div>
+{% endblock %}
+</body>
+</html>

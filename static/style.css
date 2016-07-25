@@ -1,0 +1,11 @@
+body {
+    background-image: url("BG.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#video
+{
+	position: fixed;
+	top:100px;
+	right:100px;
+}

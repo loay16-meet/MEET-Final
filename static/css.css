@@ -1,0 +1,27 @@
+body{
+background-image: url("http://www.psdgraphics.com/file/blurry-lights.jpg");
+}
+
+h2{
+text-align: center;	
+color :gray;
+}
+
+
+h1{
+text-align: center;	
+color :gray;
+}
+p{
+text-align: center;	
+color :gray;
+}
+
+
+a{text-align: center;	 color :gray;}
+
+img{height: 500px;   width: 500px;}
+
+table{text-align: center;  color: gray;}
+
+ul{text-align: center;}
